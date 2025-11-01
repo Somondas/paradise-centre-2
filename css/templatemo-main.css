@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   width: 100%;
   z-index: 9999;
-  padding: 20px 0;
+  padding: 15px 0;
   background: white;
   -webkit-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
   -moz-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
@@ -575,10 +575,10 @@ IPAD PORTRAIT (768x1024)
   }
 
   .main-header {
-    padding: 15px 0;
+    padding: 0px 0;
   }
   .main-header .logo {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .service-item, .team-member {
