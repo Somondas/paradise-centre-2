@@ -67,12 +67,16 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-xs-6">
-                            <div class="logo">
+                            <!-- /.logo -->
+                            <div class="logo hidden hidden-xs">
                                 <h1><a href="#" title="Dreri">Paradise Centre</a></h1>
+                            </div> 
+                            <div class="logo visible-sm visible-xs">
+                                <h1 style="font-size: large; width: 100%;"><a href="#" title="Dreri">Paradise Centre</a></h1>
                             </div> <!-- /.logo -->
                         </div> <!-- /.col-md-4 -->
                         <div class="col-md-8 col-sm-8 col-xs-6">
-                            <div class="menu text-right ">
+                            <div class="menu text-right hidden-sm hidden-xs">
                                 <ul>
                                     <li><a href="#home">Home</a></li>
                                     <li><a href="#services">Services</a></li>
@@ -85,7 +89,19 @@
                             </div> <!-- /.menu -->
                         </div> <!-- /.col-md-8 -->
                     </div> <!-- /.row -->
-                    <!-- /.responsive-menu -->
+                    <div class="responsive-menu text-right visible-xs visible-sm">
+                        <a href="#" class="toggle-menu fa fa-bars"></a>
+                        <div class="menu">
+                            <ul>
+                                 <li><a href="#home">Home</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#real-about-section">About</a></li>
+                                    <li><a href="#campus">Campus</a></li>
+                                    <li><a href="#portfolio">Gallery</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div> <!-- /.menu -->
+                    </div> <!-- /.responsive-menu -->
                 </div> <!-- /.container -->
             </div> <!-- /.header -->
         </div> <!-- /.site-header -->
@@ -420,7 +436,12 @@
                                 <h4><a data-rel="lightbox" href="images/portfolio/item6.jpeg">View</a></h4>
                                
                             </div>
-                        </div> <!-- /.overlay -->
+                        </div> <!-- /.overlay --><script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const year = new Date().getFullYear();
+    document.getElementById("year").textContent = year;
+  });
+</script>
                     </div> <!-- /.portfolio-thumb -->
                 </div> <!-- /.col-md-3 -->
                 <div class="col-md-3 col-sm-6">
@@ -548,6 +569,7 @@
 
         window.onload = loadScript;
     </script>
+
     <script>
   document.addEventListener("DOMContentLoaded", function() {
     const year = new Date().getFullYear();
