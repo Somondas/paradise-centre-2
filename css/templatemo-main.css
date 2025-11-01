@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   width: 100%;
   z-index: 9999;
-  padding: 0px 0;
+  padding: 20px 0;
   background: white;
   -webkit-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
   -moz-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
@@ -152,9 +152,9 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-/* .main-header .logo {
-  transform: translateX(-5%);
-} */
+.main-header .logo {
+  margin-top: 10px;
+}
 .main-header .logo h1 {
   font-size: 28px;
   font-weight: 700;
@@ -574,13 +574,7 @@ IPAD PORTRAIT (768x1024)
     margin-top: 100px;
   }
 
-  .main-header {
-    padding: 15px 0;
-    
-  }
-  .main-header .logo {
-    margin-top: 20px;
-  }
+
 
   .service-item, .team-member {
     margin-bottom: 50px;
@@ -619,12 +613,16 @@ IPHONE 4-4S-5 LANDSCAPE (568x320)
     margin-bottom: 60px;
   }
 
-  .main-header {
-    height: 20px;
-  }
-  .main-header .logo {
-    margin: 0;
-  }
+   .main-header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  padding: 0px 0;
+  
+}
+.main-header .logo {
+  margin-top: 0px;
+}
 
   .flexslider {
     margin-top: 60px;
